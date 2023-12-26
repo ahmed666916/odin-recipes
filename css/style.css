@@ -1,3 +1,7 @@
+* {
+    border: 2px solid red;
+}
+
 .responsive {
     width: 50%;
     height: auto;
