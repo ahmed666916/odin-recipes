@@ -6,3 +6,21 @@
     width: 50%;
     height: auto;
   }
+
+  .flex-container {
+    display: flex;
+    /* Change the direction to a column */
+    flex-direction: row;
+    /* Align items to the center horizontally */
+    justify-content: center;
+    /* Align items to the center vertically */
+    align-items: center;
+  }
+  
+  .item {
+    /* Set some basic styling */
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000;
+  }
+  
